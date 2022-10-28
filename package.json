@@ -9,7 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "dotenv-safe": "^8.2.0",
+    "i": "^0.3.7",
+    "js-cookie": "^3.0.1",
     "next": "12.3.1",
+    "postgres": "https://github.com/porsager/postgres.git",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "sharp": "^0.31.0"
@@ -17,6 +22,8 @@
   "devDependencies": {
     "@babel/eslint-parser": "7.19.1",
     "@next/eslint-plugin-next": "12.3.1",
+    "@types/dotenv-safe": "^8.1.2",
+    "@types/js-cookie": "^3.0.1",
     "@types/node": "18.7.18",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
